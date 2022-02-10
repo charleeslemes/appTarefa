@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: blueviolet;
+}
+
+
+.boxTarefas{
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 30px 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.boxTarefas h2{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.boxTarefas p{
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-bottom: 2px dotted #ccc;
+}
+
+.addTarefas{
+    position: fixed;
+    right: 60px;
+    top: 20px;
+    background-color: crimson ;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index:999;
+}
+
+.modalContent{
+    max-width: 600px;
+    padding: 40px 20px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
