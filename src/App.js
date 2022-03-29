@@ -103,12 +103,7 @@ function App() {
                 <div>
                   <p onClick={()=>marcarConcluida(val.id,true)}>{val.tarefa} </p>
                  
-                </div>
-
-                
-              
-                
-                
+                </div>                
               );
             }else{
               return(

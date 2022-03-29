@@ -62,8 +62,10 @@ body{
 }
 
 .modalContent{
-    max-width: 600px;
-    padding: 40px 20px;
+    max-width: 1000px;
+    padding: 100px 100px;
+    border-radius:10px;
+    box-shadow: 3px 3px 15px rgb(97, 95, 95);
     background-color: white;
     position: absolute;
     left: 50%;
@@ -71,4 +73,104 @@ body{
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+}
+
+.modalContent h3{
+    margin-top: -20px;
+    font-size: 28px;
+}
+
+.modalContent input[type="text"]{
+    width: 75%;
+    height: 35px;
+    border-radius: 10px;
+    border:1px solid gray;
+    padding: 0 10px;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+
+.modalContent input[type="text"]:focus{
+    outline: 0;
+}
+
+
+.modalContent button{
+   width: 135px;
+   height: 35px;
+   background-color: blueviolet;
+   color:white;
+   border:0;
+   border-radius:10px;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .addTarefas{
+        position: fixed;
+        right: 0px;
+        top: 20px;
+        background-color: crimson ;
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        cursor: pointer;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        
+    
+    }
+
+    .boxTarefas{
+        width: 90%;
+ 
+    }
+
+    .boxTarefas h2{
+        font-size: 28px;
+    
+    }
+    
+    .boxTarefas p{
+ 
+        font-size: 18px;
+  
+    }
+    .modalContent input[type="text"]{
+        width: 100%;
+        height: 35px;
+        border-radius: 10px;
+        border:1px solid gray;
+        padding: 0 10px;
+        font-size: 18px;
+        margin: 10px auto;
+    }
+
+    .modalContent{
+        max-width: 1000px;
+        padding: 25px 30px;
+        width: 88%;
+        height: 300px;
+        border-radius:10px;
+        box-shadow: 3px 3px 15px rgb(97, 95, 95);
+        background-color: white;
+   
+    }
+
+    .modalContent h3{
+        margin-top: 50px;
+        font-size: 28px;
+        text-align: center;
+    }
+    
+
+    .modalContent button{
+        width: 150px;
+        height: 50px;
+        font-size: 23px;
+    
+     }
 }
